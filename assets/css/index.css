@@ -9,7 +9,7 @@ main {
     background-image: url(../images/welcome-cat-dog.png);
     background-position: bottom;
     background-repeat: no-repeat;
-    background-size: 150px;
+    background-size: 20vh;
 
     align-items: center;
     display: flex;
@@ -20,15 +20,15 @@ main {
     align-items: center;
     display: flex;
     flex-direction: column;
-    margin-bottom: 200px;
-    margin-top: 100px;
     row-gap: 26px;
+    height: 100vh;
+    justify-content: center;
+    max-width: 200px;
 }
 
 .welcome__info {
     display: flex;
     flex-direction: column;
-    max-width: 200px;
     row-gap: 16px;
 }
 
@@ -45,6 +45,5 @@ main {
 .welcome__buttons {
     display: flex;
     flex-direction: column;
-    max-width: 200px;
     row-gap: 16px;
 }
