@@ -5,6 +5,7 @@
     font-family: 'Poppins', sans-serif;
     color: var(--gray);
     font-weight: 500;
+    line-height: 72px;
 }
 
 .title__h2 {
@@ -12,6 +13,7 @@
     font-family: 'Poppins', sans-serif;
     color: var(--gray);
     font-weight: 500;
+    line-height: 48px;
 }
 
 .title__h3 {
@@ -19,6 +21,7 @@
     font-family: 'IBM Plex Sans', sans-serif;
     color: var(--gray);
     font-weight: 500;
+    line-height: 48px;
 }
 
 .title__h4 {
@@ -26,6 +29,7 @@
     font-family: 'Poppins', sans-serif;
     color: var(--gray);
     font-weight: 600;
+    line-height: 24px;
 }
 
 .text {
@@ -33,6 +37,7 @@
     font-family: 'Poppins', sans-serif;
     color: var(--gray);
     font-weight: 400;
+    line-height: 24px;
 }
 
 .text__small {
@@ -40,6 +45,7 @@
     font-family: 'Poppins', sans-serif;
     color: var(--gray);
     font-weight: 400;
+    line-height: 24px;
 }
 
 .subtitle {
@@ -47,13 +53,7 @@
     font-family: 'Poppins', sans-serif;
     color: var(--gray);
     font-weight: 400;
-}
-
-.text__button {
-    font-size: 16px;
-    font-family: 'IBM Plex Sans', sans-serif;
-    color: #FFFFFF;
-    font-weight: 400;
+    line-height: 16px;
 }
 
 /* 

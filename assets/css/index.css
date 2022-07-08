@@ -1,0 +1,41 @@
+body {
+    align-items: center;
+    background: url(../images/green-bg-1.png), url(../images/green-bg-2.png) var(--blue);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top left, right;
+    background-size: 270px, 60px;
+    display: flex;
+    height: 100vh;
+}
+
+.welcome__container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 26px;
+    width: 100%;
+}
+
+.welcome__info {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    row-gap: 16px;
+}
+
+.welcome__logo {
+    margin-bottom: 16px;
+    width: 100%;
+}
+
+.welcome__info > .title__h3, .text {
+    color: var(--white);
+    text-align: center;
+}
+
+.welcome__buttons {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    row-gap: 16px;
+}
