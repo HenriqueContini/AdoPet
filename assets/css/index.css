@@ -1,10 +1,14 @@
 body {
-    align-items: center;
     background: url(../images/green-bg-1.png), url(../images/green-bg-2.png) var(--blue);
     background-repeat: no-repeat, no-repeat;
     background-position: top left, right;
     background-size: 270px, 60px;
+}
+
+main {
     display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
 }
 
@@ -13,7 +17,6 @@ body {
     display: flex;
     flex-direction: column;
     row-gap: 26px;
-    width: 100%;
 }
 
 .welcome__info {

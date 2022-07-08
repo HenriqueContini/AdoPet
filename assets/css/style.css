@@ -1,6 +1,7 @@
 @import url(./reset.css);
 @import url(./typography.css);
 @import url(./button.css);
+@import url(./footer.css);
 
 :root {
     --blue: #3772FF;
