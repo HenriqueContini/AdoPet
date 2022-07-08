@@ -1,0 +1,12 @@
+.button__coral {
+    background-color: var(--coral);
+    border-radius: 6px;
+    min-width: 180px;
+    padding: 8px 24px;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.25));
+}
+
+.button__coral:hover {
+    cursor: pointer;
+    background-color: #FF9D9E;
+}
