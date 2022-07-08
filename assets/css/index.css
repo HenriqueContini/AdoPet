@@ -1,21 +1,27 @@
 body {
-    background: url(../images/green-bg-1.png), url(../images/green-bg-2.png) var(--blue);
+    background: url(../images/green-bg-1.png), url(../images/green-bg-2.png), var(--blue);
     background-repeat: no-repeat, no-repeat;
     background-position: top left, right;
-    background-size: 270px, 60px;
+    background-size: 200px, 60px;
 }
 
 main {
+    background-image: url(../images/welcome-cat-dog.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 150px;
+
+    align-items: center;
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
 }
 
 .welcome__container {
     align-items: center;
     display: flex;
     flex-direction: column;
+    margin-bottom: 200px;
+    margin-top: 100px;
     row-gap: 26px;
 }
 
