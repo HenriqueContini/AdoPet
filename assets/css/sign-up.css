@@ -1,0 +1,50 @@
+body {
+    background: url(../images/green-bg-1.png), var(--white);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 200px;
+}
+
+main {
+    background: url(../images/green-bg-2-left.png);
+    background-repeat: no-repeat;
+    background-position: -30px 170px;
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 60px 0;
+}
+
+.sign-up__container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    row-gap: 20px;
+    text-align: center;
+}
+.sign-up__logo {
+    max-width: 150px;
+    width: 100%;
+}
+
+.sign-up__text {
+    color: var(--blue);
+}
+
+.sign-up__form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.sign-up__form input {
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.sign-up__form .button__coral {
+    margin-top: 24px;
+}

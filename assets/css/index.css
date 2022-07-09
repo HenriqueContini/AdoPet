@@ -1,5 +1,5 @@
 body {
-    background: url(../images/green-bg-1.png), url(../images/green-bg-2.png), var(--blue);
+    background: url(../images/green-bg-1.png), url(../images/green-bg-2-right.png), var(--blue);
     background-repeat: no-repeat, no-repeat;
     background-position: top left, right;
     background-size: 200px, 60px;
@@ -20,10 +20,10 @@ main {
     align-items: center;
     display: flex;
     flex-direction: column;
-    row-gap: 26px;
     height: 100vh;
     justify-content: center;
     max-width: 200px;
+    row-gap: 26px;
 }
 
 .welcome__info {
@@ -37,7 +37,7 @@ main {
     width: 100%;
 }
 
-.welcome__info > .title__h3, .text {
+.welcome__info .title__h3, .text {
     color: var(--white);
     text-align: center;
 }
