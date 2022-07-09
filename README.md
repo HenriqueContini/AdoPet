@@ -1,4 +1,4 @@
-<h1 align="center">🐶 Adopet 🐱</h1>
+<h1 align="center">🐶 AdoPet 🐱</h1>
 <p align="center">Resultado do Alura Challenge 4</p>
 
 ### 🖥️ Site 
