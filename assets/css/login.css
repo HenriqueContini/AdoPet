@@ -5,10 +5,10 @@ body {
     background-size: 200px, 100px;
 }
 
-.sign-up__main {
+.login__main {
     background: url(../images/green-bg-2-left.png);
     background-repeat: no-repeat;
-    background-position: -30px 80%;
+    background-position: -45px 85%;
 
     align-items: center;
     display: flex;
@@ -16,36 +16,37 @@ body {
     min-height: 100vh;
 }
 
-.sign-up__container {
+.login__container {
     align-items: center;
     display: flex;
     flex-direction: column;
     padding: 70px 24px;
     row-gap: 20px;
     text-align: center;
+    width: 100%;
 }
 
-.sign-up__logo {
+.login__logo {
     max-width: 150px;
     width: 100%;
 }
 
-.sign-up__text {
+.login__text {
     color: var(--blue);
 }
 
-.sign-up__form {
+.login__form {
     align-items: center;
     display: flex;
     flex-direction: column;
     width: 100%;
 }
 
-.sign-up__form input {
+.login__form input {
     margin-bottom: 20px;
     margin-top: 5px;
 }
 
-.sign-up__form .button__coral {
+.login__form .button__coral {
     margin-top: 24px;
 }
