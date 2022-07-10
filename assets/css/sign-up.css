@@ -8,19 +8,19 @@ body {
 main {
     background: url(../images/green-bg-2-left.png);
     background-repeat: no-repeat;
-    background-position: -30px 170px;
+    background-position: -30px 65%;
 
     align-items: center;
     display: flex;
     justify-content: center;
-    margin: 70px 0;
+    min-height: 100vh;
 }
 
 .sign-up__container {
     align-items: center;
     display: flex;
     flex-direction: column;
-    padding: 24px;
+    padding: 70px 24px;
     row-gap: 20px;
     text-align: center;
 }
