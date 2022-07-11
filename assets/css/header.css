@@ -3,16 +3,11 @@
 }
 
 .header__wrapper {
+    align-items: center;
+    column-gap: 50px;
     display: grid;
     grid-template-columns: 26px 26px 1fr;
     justify-content: left;
-    align-items: center;
-    column-gap: 50px;
-}
-
-.header__button__img {
-    width: 26px;
-    height: 26px;
 }
 
 .header__button__profile {

@@ -1,0 +1,51 @@
+body {
+    background: url(../images/green-bg-1.png), var(--white);
+    background-repeat: no-repeat;
+    background-position-x: -20px;
+}
+
+.text__animals {
+    color: var(--blue);
+    padding: 30px;
+    text-align: center;
+}
+
+.animals__wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    align-items: center;
+}
+
+.animal {
+    align-items: center;
+    background-color: var(--light-gray-background);
+    box-sizing: border-box;
+    column-gap: 16px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    padding: 24px;
+    width: 100%;
+}
+
+.animal .title__h4 {
+    color: var(--blue);
+}
+
+.animal .text__small {
+    margin-top: 20px;
+}
+
+.animal .subtitle {
+    text-decoration: none;
+    padding: 10px 0 10px 25px;
+    background-image: url(../icons/icon-message-green.svg);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.animal__subtitle__link {
+    text-decoration: none;
+    color: var(--gray);
+}
