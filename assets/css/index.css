@@ -26,6 +26,6 @@ body {
     width: 80%;
 }
 
-.welcome .title__h3, .text {
+.welcome .title__medium, .text {
     color: var(--white);
 }

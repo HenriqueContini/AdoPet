@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500&family=Poppins:ital,wght@0,500;0,600;1,400&display=swap');
 
-.title__h1 {
+.title__extra-large {
     font-size: 68px;
     font-family: 'Poppins', sans-serif;
     color: var(--gray);
@@ -8,7 +8,7 @@
     line-height: 72px;
 }
 
-.title__h2 {
+.title__large {
     font-size: 42px;
     font-family: 'Poppins', sans-serif;
     color: var(--gray);
@@ -16,7 +16,7 @@
     line-height: 48px;
 }
 
-.title__h3 {
+.title__medium {
     font-size: 28px;
     font-family: 'IBM Plex Sans', sans-serif;
     color: var(--gray);
@@ -24,7 +24,7 @@
     line-height: 48px;
 }
 
-.title__h4 {
+.title__small {
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
     color: var(--gray);
