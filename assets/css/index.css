@@ -15,7 +15,7 @@ body {
     text-align: center;
 }
 
-.welcome__info {
+.welcome {
     display: flex;
     flex-direction: column;
     row-gap: 16px;
@@ -26,6 +26,6 @@ body {
     width: 80%;
 }
 
-.welcome__info .title__h3, .text {
+.welcome .title__h3, .text {
     color: var(--white);
 }
