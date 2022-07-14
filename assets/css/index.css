@@ -3,27 +3,16 @@ body {
     background-repeat: no-repeat, no-repeat;
     background-position: top left, right;
     background-size: 200px, 60px;
-}
 
-main {
-    background-image: url(../images/welcome-cat-dog.png);
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: 20vh;
-
-    align-items: center;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .welcome__container {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    justify-content: center;
-    max-width: 200px;
-    row-gap: 26px;
+    margin: auto;
+    max-width: 250px;
+    text-align: center;
 }
 
 .welcome__info {
@@ -34,16 +23,9 @@ main {
 
 .welcome__logo {
     margin-bottom: 16px;
-    width: 100%;
+    width: 80%;
 }
 
 .welcome__info .title__h3, .text {
     color: var(--white);
-    text-align: center;
-}
-
-.welcome__buttons {
-    display: flex;
-    flex-direction: column;
-    row-gap: 16px;
 }
