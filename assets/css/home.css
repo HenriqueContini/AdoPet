@@ -6,15 +6,15 @@ body {
 
 .text__animals {
     color: var(--blue);
-    padding: 30px;
+    padding: 40px;
     text-align: center;
 }
 
 .animals__wrapper {
+    align-items: center;
     display: flex;
     flex-direction: column;
     row-gap: 16px;
-    align-items: center;
 }
 
 .animal {
@@ -25,11 +25,11 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
-    padding: 24px;
-    width: 100%;
+    max-width: 400px;
+    padding: 16px;
 }
 
-.animal .title__h4 {
+.animal .title__small {
     color: var(--blue);
 }
 
@@ -38,14 +38,14 @@ body {
 }
 
 .animal .subtitle {
-    text-decoration: none;
-    padding: 10px 0 10px 25px;
     background-image: url(../icons/icon-message-green.svg);
-    background-repeat: no-repeat;
     background-position: left center;
+    background-repeat: no-repeat;
+    padding: 10px 0 10px 25px;
+    text-decoration: none;
 }
 
 .animal__subtitle__link {
-    text-decoration: none;
     color: var(--gray);
+    text-decoration: none;
 }
