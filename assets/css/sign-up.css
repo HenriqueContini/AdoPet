@@ -1,19 +1,20 @@
 body {
-    background: url(../images/green-bg-1.png), url(../images/paws.png), var(--white);
-    background-repeat: no-repeat, no-repeat;
-    background-position: top left, top right;
-    background-size: 200px, 100px;
+    background: url(../images/green-bg-1.png), url(../images/paws.png), url(../images/green-bg-2-left.png), var(--white);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: top left, top right, center left -30px;
+    background-size: 200px, 100px, 80px;
+    
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .sign-up__main {
-    background: url(../images/green-bg-2-left.png);
-    background-repeat: no-repeat;
-    background-position: -30px 80%;
-
     align-items: center;
     display: flex;
-    justify-content: center;
-    min-height: 100vh;
+    flex: 1;
+    margin: 0 auto;
+    max-width: 300px;
 }
 
 .sign-up__container {
@@ -27,21 +28,13 @@ body {
 
 .sign-up__logo {
     max-width: 150px;
-    width: 100%;
 }
 
 .sign-up__text {
     color: var(--blue);
 }
 
-.sign-up__form {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-
-.sign-up__form input {
+.sign-up__form .input {
     margin-bottom: 20px;
     margin-top: 5px;
 }

@@ -1,45 +1,37 @@
 body {
-    background: url(../images/green-bg-1.png), url(../images/paws.png), var(--white);
-    background-repeat: no-repeat, no-repeat;
-    background-position: top left, top right;
-    background-size: 200px, 100px;
+    background: url(../images/green-bg-1.png), url(../images/paws.png), url(../images/green-bg-2-left.png), var(--white);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: top left, top right, center left -40px;
+    background-size: 200px, 100px, 80px;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .login__main {
-    background: url(../images/green-bg-2-left.png);
-    background-repeat: no-repeat;
-    background-position: -45px 85%;
-
     align-items: center;
     display: flex;
-    justify-content: center;
-    min-height: 100vh;
+    flex: 1;
+    margin: 0 auto;
+    max-width: 300px;
 }
 
 .login__container {
     align-items: center;
     display: flex;
     flex-direction: column;
-    padding: 70px 24px;
+    padding: 110px 24px;
     row-gap: 20px;
     text-align: center;
-    width: 100%;
 }
 
 .login__logo {
     max-width: 150px;
-    width: 100%;
 }
 
 .login__text {
     color: var(--blue);
-}
-
-.login__form {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
 }
 
 .login__form input {
