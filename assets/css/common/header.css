@@ -2,7 +2,7 @@
     padding: 40px 30px;
 }
 
-.header__wrapper {
+.header__nav {
     align-items: center;
     column-gap: 50px;
     display: grid;
