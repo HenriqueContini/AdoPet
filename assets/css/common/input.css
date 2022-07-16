@@ -1,11 +1,18 @@
 .input {
     border-radius: 6px;
-    box-sizing: border-box;
-    padding: 12px 16px;
     border: none;
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    box-sizing: border-box;
     outline-color: var(--gray);
+    padding: 12px 16px;
     width: 100%;
+
+    color: var(--gray);
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: center;
 }
 
 .input__gray {
@@ -18,13 +25,4 @@
 
 .input::placeholder {
     color: var(--light-gray);
-}
-
-.input__text {
-    font-size: 12px;
-    font-family: 'Poppins', sans-serif;
-    color: var(--gray);
-    font-weight: 500;
-    line-height: 16px;
-    text-align: center;
 }
