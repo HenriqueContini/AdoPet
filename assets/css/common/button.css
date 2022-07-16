@@ -5,14 +5,7 @@
     filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.25));
     min-width: 200px;
     padding: 8px 0;
-}
 
-.button__coral:hover {
-    background-color: #FF9D9E;
-    cursor: pointer;
-}
-
-.button__text {
     color: var(--white);
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 16px;
@@ -20,4 +13,9 @@
     line-height: 24px;
     text-align: center;
     text-decoration: none;
+}
+
+.button__coral:hover {
+    background-color: #FF9D9E;
+    cursor: pointer;
 }

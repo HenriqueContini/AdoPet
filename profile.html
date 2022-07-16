@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdoPet | Perfil</title>
+
+    <link rel="stylesheet" href="./assets/css/common/style.css">
+    <link rel="stylesheet" href="./assets/css/profile.css">
+</head>
+<body>
+    <header class="header__container">
+        <nav class="header__nav">
+            <a href="./home.html" class="header__button"><img src="./assets/icons/icon-home.svg" class="header__button__img" alt="Home"></a>
+            <a href="#" class="header__button"><img src="./assets/icons/icon-message.svg" class="header__button__img" alt="Mensagens"></a>
+            <a href="./profile.html" class="header__button__profile"><img src="./assets/icons/icon-profile.svg" alt="Perfil"></a>
+        </nav>
+    </header>
+
+    <main class="profile__main">
+        <p class="text profile__text">Esse é o perfil que aparece para responsáveis ou ONGs que recebem sua mensagem.</p>
+        <section class="profile__container">
+            <h1 class="title__small profile__title">Perfil</h1>
+            <form class="profile__form">
+                <p class="text">Foto</p>
+                <img src="./assets/images/profile.jpg" alt="Foto de perfil" class="profile__image">
+                <span class="subtitle profile__image__span">Clique na foto para editar</span>
+
+                <label for="profile__name" class="text">Nome</label>
+                <input type="text" name="profile__name" id="profile__name" placeholder="Insira seu nome" class="input input__white input__text">
+                <label for="profile__phone" class="text">Telefone</label>
+                <input type="text" name="profile__phone" id="profile__phone" placeholder="Insira seu telefone" class="input input__white input__text">
+                <label for="profile__city" class="text">Cidade</label>
+                <input type="text" name="profile__city" id="profile__city" placeholder="Insira a sua cidade" class="input input__white input__text">
+                <label for="profile__about" class="text">Sobre</label>
+                <textarea name="profile__about" id="profile__about" placeholder="Fale um pouco sobre você" class="input input__white input__text profile__textarea"></textarea>
+
+                <button class="button__coral">Salvar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p class="text">2022 - Desenvolvido por Alura.</p>
+    </footer>
+</body>
