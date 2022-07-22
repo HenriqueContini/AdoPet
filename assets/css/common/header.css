@@ -1,5 +1,9 @@
 .header__container {
-    padding: 40px 30px;
+    padding: 40px 20px;
+}
+
+.header__logo {
+    display: none;
 }
 
 .header__nav {
@@ -7,9 +11,23 @@
     column-gap: 50px;
     display: grid;
     grid-template-columns: 26px 26px 1fr;
-    justify-content: left;
+    padding: 0 20px;
 }
 
 .header__button__profile {
     justify-self: right;
+}
+
+@media screen and (min-width: 768px) {
+    .header__container {
+        display: grid;
+        grid-template-columns: 120px 1fr;
+        column-gap: 16px;
+        align-items: center;
+    }
+
+    .header__logo {
+        display: block;
+        width: 100%;
+    }
 }

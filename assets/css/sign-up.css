@@ -1,8 +1,8 @@
 body {
-    background: url(../images/green-bg-1.png), url(../images/paws.png), url(../images/green-bg-2-left.png), var(--white);
+    background: url(../images/paws.png), url(../images/green-bg-1.png), url(../images/green-bg-2-right.png), var(--white);
     background-repeat: no-repeat, no-repeat, no-repeat;
-    background-position: top left, top right, center left -30px;
-    background-size: 200px, 100px, 80px;
+    background-position: top right, top left, center right;
+    background-size: 100px, 200px, 70px;
     
     display: flex;
     flex-direction: column;
@@ -27,7 +27,7 @@ body {
 }
 
 .sign-up__logo {
-    max-width: 150px;
+    max-width: 50%;
 }
 
 .sign-up__text {
@@ -41,4 +41,19 @@ body {
 
 .sign-up__form .button__coral {
     margin-top: 24px;
+}
+
+@media screen and (min-width: 768px) {
+    .sign-up__main {
+        max-width: 400px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    body {
+        background-size: initial;
+    }
+    .sign-up__main {
+        max-width: 500px;
+    }
 }

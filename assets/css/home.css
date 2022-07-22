@@ -1,7 +1,6 @@
 body {
     background: url(../images/green-bg-1.png), var(--white);
     background-repeat: no-repeat;
-    background-position-x: -20px;
 }
 
 .text__animals {
@@ -48,4 +47,21 @@ body {
 .animal__subtitle__link {
     color: var(--gray);
     text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+    .animals__wrapper {
+        align-items: stretch;
+        column-gap: 16px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-bottom: 16px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .animals__main {
+        padding: 0 100px;
+    }
 }
