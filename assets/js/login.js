@@ -10,7 +10,7 @@ loginForm.addEventListener('submit', (e) => {
     let userFound = checkUser(users, loginEmail, loginPassword);
 
     if (userFound) {
-        window.location.href = './home.html';
+        window.location.href = 'https://henriquecontini.github.io/AdoPet/home.html';
     } else {
         span.classList.add('login__span--active');
     }
