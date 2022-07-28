@@ -27,5 +27,5 @@ form.addEventListener('submit', (e) => {
     password.value = '';
     confirmPassword.value = '';
 
-    window.location.href = "/home.html";
+    window.location.href = "https://henriquecontini.github.io/AdoPet/home.html";
 })
