@@ -16,11 +16,12 @@
         <section class="login__container">
             <img src="./assets/icons/logo-adopet-blue.svg" alt="Logo AdoPet" class="login__logo">
             <p class="text login__text">Já tem conta? Faça seu login:</p>
-            <form action="" class="login__form">
+            <form class="login__form">
                 <label for="email-login" class="text">Email</label>
                 <input type="email" id="email-login" name="email-login" required class="input input__gray" placeholder="Insira seu email">
                 <label for="password-login" class="text">Senha</label>
                 <input type="password" id="password-login" name="password-login" class="input input__gray" placeholder="Insira sua senha">
+                <span class="text__small login__span">Email ou senha inválida!</span>
 
                 <button type="submit" class="button__coral">Entrar</button>
             </form>
@@ -29,5 +30,7 @@
     <footer>
         <p class="text">2022 - Desenvolvido por Alura.</p>
     </footer>
+
+    <script src="./assets/js/login.js"></script>
 </body>
 </html>

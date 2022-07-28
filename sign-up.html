@@ -17,16 +17,19 @@
             <img src="./assets/icons/logo-adopet-blue.svg" alt="Logo AdoPet" class="sign-up__logo">
             <p class="text sign-up__text">Ainda não tem cadastro?</p>
             <p class="text sign-up__text">Então, antes de buscar seu melhor amigo, precisamos de alguns dados:</p>
-            <form action="" class="sign-up__form">
+            <form class="sign-up__form">
                 <label for="email" class="text">Email</label>
-                <input type="email" id="email" name="email" required class="input input__gray" placeholder="Escolha seu melhor email">
+                <input type="email" id="email" name="email" required class="input input__gray" placeholder="Escolha seu melhor email"/>
+                
                 <label for="name" class="text">Nome</label>
-                <input type="text" id="name" name="name" required class="input input__gray" placeholder="Digite seu nome completo">
+                <input type="text" id="name" name="name" required class="input input__gray" placeholder="Digite seu nome completo"/>
+                
                 <label for="password" class="text">Senha</label>
-                <input type="password" id="password" name="password" class="input input__gray" placeholder="Crie uma senha">
-                <label for="checkPassword" class="text">Confirma sua senha</label>
-                <input type="password" id="checkPassword" name="checkPassword" class="input input__gray" placeholder="Repita a senha criada acima">
-
+                <input type="password" id="password" name="password" required class="input input__gray" placeholder="Crie uma senha" />
+                
+                <label for="confirmPassword" class="text">Confirma sua senha</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" required class="input input__gray" placeholder="Repita a senha criada acima" />
+                
                 <button type="submit" class="button__coral">Cadastrar</button>
             </form>
         </section>
@@ -34,5 +37,7 @@
     <footer>
         <p class="text">2022 - Desenvolvido por Alura.</p>
     </footer>
+
+    <script src="./assets/js/sign-up.js"></script>
 </body>
 </html>

@@ -9,7 +9,7 @@ body {
 
 .message__main {
     flex: 1;
-    padding: 30px;
+    padding: 24px;
     max-width: 500px;
     align-self: center;
 }
